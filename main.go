@@ -9,8 +9,8 @@ import (
 func main() {
 	//variables.MuestroEnteros()
 	//variables.RestoVariables()
-	estado, texto := variables.ConviertoATexto(1588)
 
+	estado, texto := variables.ConviertoATexto(1588)
 	fmt.Println(estado)
 	fmt.Println(texto)
 }
