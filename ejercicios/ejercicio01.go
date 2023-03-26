@@ -11,7 +11,7 @@ func ConvierteAEntero(numero string) (int, string) {
 	numeroInt, err := strconv.Atoi(strings.TrimSpace(numero))
 
 	if err != nil {
-		return 0, "Hubo un error."
+		return 0, "Hubo un error " + err.Error()
 	}
 
 	if numeroInt > 100 {
