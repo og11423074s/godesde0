@@ -30,7 +30,7 @@ func main() {
 			fmt.Printf("%s \n", os)
 		}*/
 
-	numeroInt, mensaje := ejercicios.ConvierteAEntero("500 ")
+	numeroInt, mensaje := ejercicios.ConvierteAEntero("90 ")
 
 	fmt.Println(mensaje)
 	fmt.Println(numeroInt)

@@ -8,7 +8,11 @@ import (
 func ConvierteAEntero(numero string) (int, string) {
 
 	var mensaje string
-	numeroInt, _ := strconv.Atoi(strings.TrimSpace(numero))
+	numeroInt, err := strconv.Atoi(strings.TrimSpace(numero))
+
+	if err != nil {
+		return 0, "Hubo un error."
+	}
 
 	if numeroInt > 100 {
 		mensaje = "Es mayor a 100"
