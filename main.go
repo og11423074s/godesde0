@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/og11423074s/godesde0/ejercicios"
+	"github.com/og11423074s/godesde0/iteraciones"
 )
 
 func main() {
@@ -30,9 +28,13 @@ func main() {
 			fmt.Printf("%s \n", os)
 		}*/
 
-	numeroInt, mensaje := ejercicios.ConvierteAEntero("90 ")
+	/*numeroInt, mensaje := ejercicios.ConvierteAEntero("rrrr ")
 
 	fmt.Println(mensaje)
-	fmt.Println(numeroInt)
+	fmt.Println(numeroInt)*/
+
+	/*teclado.IngresoNumero()*/
+
+	iteraciones.Iterar()
 
 }
