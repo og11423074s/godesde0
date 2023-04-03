@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/og11423074s/godesde0/files"
+	"github.com/og11423074s/godesde0/mapas"
 )
 
 func main() {
@@ -43,6 +43,18 @@ func main() {
 
 	//files.SumaTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	//funciones.Calculo()
+
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(2)
+
+	//arreglos_slice.MuestrSrreglos()
+
+	//arreglos_slice.Capacidad()
+
+	mapas.MostrarMapas()
 
 }
