@@ -62,8 +62,10 @@ func main() {
 
 	Pedro := new(modelos.Hombre)
 	e.HumanoRespirando(Pedro)
+	e.HumanoVive(Pedro)
 
 	Maria := new(modelos.Mujer)
 	e.HumanoRespirando(Maria)
+	e.HumanoVive(Maria)
 
 }
