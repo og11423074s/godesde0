@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/og11423074s/godesde0/mapas"
+	e "github.com/og11423074s/godesde0/ejer_interfaces"
+	"github.com/og11423074s/godesde0/modelos"
 )
 
 func main() {
@@ -55,6 +56,14 @@ func main() {
 
 	//arreglos_slice.Capacidad()
 
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+
+	//users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+	e.HumanoRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanoRespirando(Maria)
 
 }
