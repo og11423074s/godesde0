@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/og11423074s/godesde0/ejer_interfaces"
-	"github.com/og11423074s/godesde0/modelos"
+	"github.com/og11423074s/godesde0/middleware"
 )
 
 func main() {
@@ -60,12 +59,28 @@ func main() {
 
 	//users.AltaUsuario()
 
-	Pedro := new(modelos.Hombre)
+	/*Pedro := new(modelos.Hombre)
 	e.HumanoRespirando(Pedro)
 	e.HumanoVive(Pedro)
 
 	Maria := new(modelos.Mujer)
 	e.HumanoRespirando(Maria)
-	e.HumanoVive(Maria)
+	e.HumanoVive(Maria)*/
+
+	//defer_panic.VamosDefer()
+	//defer_panic.EjemploPanic()
+
+	/*canal1 := make(chan bool)
+	go gorutines.MiNombreLentooo("Osmar Gonzalez", canal1)
+
+	defer func() {
+		<-canal1 // espera el canal1 que termine su ejecucion
+	}()
+
+	fmt.Println("Estoy aqui")*/
+
+	//webserver.MiWebServer()
+
+	middleware.MiMiddleware()
 
 }
